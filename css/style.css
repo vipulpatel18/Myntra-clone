@@ -158,6 +158,7 @@ nav {
     opacity: 0;
     visibility: hidden;
     transition: 0.15s;
+    z-index: 10;
 }
 
 .men-mega-manu-box{
@@ -751,12 +752,19 @@ footer {
     color: #282c3f;
     font-size: 13px;
     font-weight: 700;
-    position: relative;
+    text-transform: uppercase;
+}
+.popular-search-main{
+    width: 100%;
+}
+.popular-search-main hr{
+    display: inline-block;
+    width: 89.2%;
+    margin-bottom: 2.5px;
 }
 
 .popular-search-p {
     padding-right: 10px;
-    position: absolute;
     top: 9px;
     background-color: #FAFBFC;
     display: inline-block;
@@ -849,4 +857,102 @@ footer {
 .myntra-points strong {
     font-size: 14px;
     color: #535766 !important;
+}
+
+
+HOME-LIVING-PAGE
+
+.living-main-img{
+    width: 100%;
+}
+.living-main-img img{
+    width: 1229px;
+    margin: 23px 60px 0 60px;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 44px;
+}
+.section{
+    width: 964px;
+    padding-left: 60px;
+}
+
+.section-title{
+    margin: 50px 0 60px 30px;
+    font-size: 29px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: #3e4152;
+}
+.section-img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-img a{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.section-img img{
+    width: 100%;
+    padding-right: 8px;
+}
+aside{
+    width: 385px;
+    padding-left: 20px;
+}
+aside p{
+    padding: 15px 0 15px 20px;
+    font-size: 15px;
+    color: #3e4152;
+}
+aside li{
+    padding: 2px 0 2px 20px;
+}
+aside a{
+    font-size: 15px;
+    color: #3e4152;
+}
+.get-inspire{
+    width: 100%;
+    padding-bottom: 0;
+    height: 182.1px;
+}
+.get-inspire img{
+    width: 100%;
+}
+.home-card{
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    background: #efeded;
+    padding-bottom: 70px;
+}
+.home-card a{
+    width: 33.33%;
+    padding-right: 8px;
+}
+.home-card img{
+    width: 100%;
+}
+.featured-brand{
+    width: 100%;
+    padding: 0 60px;
+    margin-bottom: 113px;
+}
+.featured-brand img{
+    width: 100%;
+}
+.brands img{
+    width: 19%;
+    margin-right: 8px;
+}
+.home-bottom{
+    margin-bottom: 40px;
+    padding: 15px;
+    border-bottom: 1px solid #eaeaec;
+    color: #696b79;
 }

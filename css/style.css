@@ -199,8 +199,12 @@ nav {
 }
 .topwear a{
     font-size: 14px;
+    display: block;
 }
-
+.topwear a:hover{
+    font-weight: 700;
+    font-weight: #282c3f;
+}
 /* WOMEN  */
 .women:hover .women-mega-manu{
     opacity: 1;
